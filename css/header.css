@@ -22,9 +22,12 @@ header div span {
     margin: 2px 10px;
 }
 
-header div#logo {
+header div {
     display: flex;
     align-items: center;
+}
+
+header div#logo {
     color: #EF233C;
 }
 
@@ -36,10 +39,20 @@ header div input {
     background-color: #6E7081;
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
+    background-size: 24px;
     background-position: 95% 50%;
     color: #FFF;
     outline: none;
     border: none;
+}
+
+header div img {
+    display: none;
+    padding: 3px;
+    width: 30px;
+    height: auto;
+    background-color: #6E7081;
+    border-radius: 8px;
 }
 
 header div input::placeholder {
@@ -53,4 +66,16 @@ header div a {
     border: 3px solid #EF233C;
     border-radius: 8px;
     cursor: pointer;
+}
+
+
+@media (max-width: 525px) {
+    header div img {
+        display: inline;
+    }
+
+    header div input {
+        display: none;
+    }
+
 }
