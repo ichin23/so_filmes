@@ -3,5 +3,99 @@ body {
     font-size: 20px;
     color: #FFF;
     background-color: #2B2D42;
+}
 
+main {
+    padding: 20px;
+}
+
+section section {
+    margin: 20px 0px;
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-color: #2B2D42 #6E7081;
+    scrollbar-width: thin;
+}
+
+
+.filme {
+    margin: 0px 10px;
+}
+
+.filme>img {
+    height: 250px;
+    border-radius: 12px;
+    transition: all 300ms;
+}
+
+.filme>img:hover {
+    height: 270px;
+}
+
+.filme p {
+    font-size: 0.8em;
+    max-width: 165px;
+}
+
+.filme div {
+    display: inline-flex;
+    align-items: center;
+    color: #D5C22D;
+
+}
+
+.filme div img {
+    height: 30px;
+
+}
+
+.filme div p {
+    font-size: 0.9em;
+}
+
+
+.comentario {
+    padding: 12px;
+    margin: 5px 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #1B4965;
+    border-radius: 8px;
+}
+
+.comentario div {
+    width: 200px;
+
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+.comentario div div {
+    display: flex;
+    color: #D5C22D;
+    font-size: 1.7em;
+    align-items: center;
+}
+
+.comentario div p {
+
+    font-size: 0.6em;
+    white-space: normal;
+    /* Força o texto a quebrar */
+    word-break: break-word;
+    /* Garante que palavras longas quebrem corretamente */
+}
+
+.comentario div div img {
+    height: 25px;
+}
+
+.comentario>img {
+    height: 150px;
+    margin: 0px 10px;
 }
