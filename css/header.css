@@ -58,6 +58,7 @@ header>input[type="search"] {
     width: 95%;
     margin: 8px;
     display: none;
+    transition: all 300ms;
 }
 
 header>input#search_bar:checked~header {
@@ -88,11 +89,16 @@ header div a {
     color: #EF233C;
     border: 3px solid #EF233C;
     border-radius: 8px;
+    text-decoration: none;
     cursor: pointer;
 }
 
 
 @media (max-width: 525px) {
+    header div {
+        padding: 3px 3px;
+    }
+
     header div img {
         display: inline;
     }
