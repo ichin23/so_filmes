@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2B2D42;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+main div img{
+    width: 2.5rem;
+}
+
+main div h3{
+    color: #EF233C;
+    font-size: 2rem;
+    font-family: 'Jaro', sans-serif;   
+}
+
+main h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+
+
+main section{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .form-box label {
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .form-box input {
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+
+main aside {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+main aside a{
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid #EF233C;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.6rem 3rem;
+    background-color: #EF233C;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+main article{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-family: sans-serif;
+}
+main article p{
+    color: #ffffff;
+    margin-right: 0.5rem;
+    font-weight: bolder;
+}
+
+main article a{
+    text-decoration: none;
+    color: #EF233C;
+    font-weight: bolder;
+}
+  
+
+
+
