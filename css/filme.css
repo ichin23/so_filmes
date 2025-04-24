@@ -6,14 +6,21 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary: #2B2D42;
+    --secondary: #EF233C;
+    --primary-light:#6E7081;
+}
+
 body{
-    background-color: #2B2D42;
+    background-color: var(--primary);
 }
 
 /* Header */
 
 header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 0.1rem solid #EDF2F4;
 }
@@ -31,27 +38,26 @@ header section img{
 }
 
 header section h3{
-    color: #EF233C;
+    color: var(--secondary);
     font-size: 2rem;
     font-family: 'Jaro', sans-serif;   
 }
-header nav{
+header nav div{ 
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
-header nav aside{
+header nav div form{
     display: flex;
     border: none;
     border-radius: 0.5rem;
-    background-color: #6E7081;
+    background-color: var(--primary-light);
     width: 15rem;
     height: 2rem;
-    margin-left: auto;
+
 }
 
-header nav aside input{
+header nav div form input{
     background-color: #6E7081;
     border-radius: 0.8rem;
     color: white;
@@ -59,27 +65,28 @@ header nav aside input{
     height: 2rem;
 }
 
-header nav aside input::placeholder{
+header nav div form input::placeholder{
     color: white;
     padding: 0.8rem;
 }
 
-header nav aside img{
+header nav div form img{
     width: 1.5rem;
     margin-right: 0.7rem;
 }
 
-header nav a{
+header nav div a{
     text-decoration: none;
-    border: 0.2rem solid #EF233C;
-    border-radius: 0.5rem;
-    color: #EF233C;
-    margin-left: 1.3rem;
-    margin-right: 4.5rem;
+    border: none;
+    margin-left: 2.2rem;
+    margin-right: 3rem;
     padding: 0.3rem 0.6rem;
     font-size: 1.3rem;
     cursor: pointer;
     font-family: sans-serif;
+}
+header nav div a img{
+    width: 2.3rem;
 }
 
 /* Main */
