@@ -12,7 +12,7 @@ header {
     border-bottom: 1px solid #EDF2F4;
 }
 
-header div {
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,12 +20,12 @@ header div {
     height: 70px;
 }
 
-header div h3 {
+header nav h1 {
     font-family: 'Jaro', sans-serif;
     font-size: 30px;
 }
 
-header div span {
+header nav span {
     color: #EF233C;
     margin: 2px 10px;
 }
